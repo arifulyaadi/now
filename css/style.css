@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: 'Lato', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+.first{
+	width: 100%;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	text-align: center;
+}
+.first div{
+    padding: 175px 100px 0px 100px;
+}
+.first h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #f6f9fa;
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+.first p{
+	color: #f6f9fa;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 65px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 26px;
+}
+.button{
+	background-color: #3cd99e;
+    border: 1px solid #3cd99e;
+    font-weight: 600;
+    color: #0d1a20;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/********************
+ Section two
+********************/
+
+.second{
+	width: 100%;
+	text-align: center;
+	padding: 150px 0px;
+}
+.common-title h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	color: #0d1a20;
+}
+.common-title p{
+	line-height: 1.6;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2b3539;
+    margin: 20px 0px;
+}
+.ammount-area div{
+	display: inline-block;
+	background-color: #e6e4e4;
+	padding: 40px 25px;
+    margin: 10px 10px;
+}
+.ammount-area div h3{
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	color: #2b3539;
+}
+#border{
+	border: 2px solid #3cd99e;
+}
+#border h3{
+    font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	color: #3cd99e;
+}
+.second-button{
+	margin-top: 60px;
+}
+.second-button p{
+	position: relative;
+	margin-bottom: 50px;
+	line-height: 1.6;
+    font-size: 22px;
+    font-weight: 400;
+    color:#b6b4b4;
+}
+.second-button p::after{
+	position: absolute;
+    content: '';
+    width: 700px;
+    height: 2px;
+    background-color: #e6e4e4;
+    top: 40px;
+    left: 24%;
+}
+
+
+/********************
+ Section third
+********************/
+.third{
+	width: 100%;
+	text-align: center;
+}
+.card{
+	display: inline-block;
+	width: 25%;
+	text-align: left;
+	padding: 40px 20px;
+	border-radius: 4px;
+	margin: 40px 5px;
+}
+.card h3{
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	color: #0d1a20;
+	margin-top: 30px;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2b3539;
+    margin: 20px 0px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+}
+
+#card-1{
+	background-color: #EDF5F6;
+}
+#card-2{
+	background-color: #FFEEEE;
+}
+#card-3{
+	background-color: #FFF4D6;
+}
+
+
+/********************
+ Section forth
+********************/
+
+.forth{
+	width: 100%;
+	height: 50vh;
+	background-image: url(../images/sweetlady.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0px;
+}
+.forth-content{
+	background-color: white;
+	width: 26%;
+    padding: 60px
+}
+.forth-content h1{
+	font-size: 32px;
+	font-family: 'Montserrat', sans-serif;
+	color: #0d1a20;
+
+}
+.forth-content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #2b3539;
+	margin-top: 40px;
+}
+
+
+
+.update{
+	width: 100%;
+	padding: 150px 0px ;
+	text-align: center;
+}
+.from{
+	background-color: #FFF4D6;
+	margin: 40px 300px;
+    padding: 70px 0px;
+}
+input{
+	outline: none;
+	border: none;
+	padding: 20px 10px;
+	border-radius: 5px;
+}
+.email{
+	width: 240px;
+}
+.submit{
+	background-color: #FF5959;
+	width: 100px;
+}
+
+/********************
+ Section forth
+********************/
+footer{
+	text-align: center;
+	background-color: black;
+	padding: 50px 0px;
+}
+footer h2{
+	color: #FF5959;
+	font-size: 40px;
+	font-style: italic;
+}
+footer p{
+	font-size: 16px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
